@@ -186,11 +186,14 @@ export default class Dropdown extends PureComponent {
       modal: false,
       value,
     };
+    
+    this.inputRef = React.createRef();
   }
 
   componentWillReceiveProps({ value }) {
     if (value !== this.props.value) {
-      this.setState({ value });
+      this.setState({value: value});
+      this.inputRef.current.setValue(value);
     }
   }
 
@@ -505,6 +508,7 @@ export default class Dropdown extends PureComponent {
 
     return (
       <TextField
+        ref={this.inputRef}
         label=''
         labelHeight={dropdownOffset.top - Platform.select({ ios: 1, android: 2 })}
 
