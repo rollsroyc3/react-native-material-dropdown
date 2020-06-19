@@ -41,7 +41,7 @@
 
   "dependencies": {
     "prop-types": "^15.5.9",
-    "react-native-material-buttons": "^0.5.0",
+    "react-native-material-buttons": "rollsroyc3/react-native-material-buttons",
     "react-native-material-textfield": "rollsroyc3/react-native-material-textfield"
   }
 }
