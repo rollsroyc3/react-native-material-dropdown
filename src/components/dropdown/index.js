@@ -460,7 +460,7 @@ export default class Dropdown extends PureComponent {
       String(title);
 
     return (
-      <TextField
+      <TextInput
         ref={this.inputRef}
         label=''
         labelHeight={dropdownOffset.top - Platform.select({ ios: 1, android: 2 })}
