@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
 import {
   Text,
-  TextInput,
   View,
   FlatList,
   Animated,
@@ -13,6 +12,7 @@ import {
   ViewPropTypes,
   I18nManager,
 } from 'react-native';
+import { TextField } from 'react-native-material-textfield';
 import DropdownItem from '../item';
 import styles from './styles';
 
@@ -461,7 +461,7 @@ export default class Dropdown extends PureComponent {
       String(title);
 
     return (
-      <TextInput
+      <TextField
         ref={this.inputRef}
         label=''
         labelHeight={dropdownOffset.top - Platform.select({ ios: 1, android: 2 })}
