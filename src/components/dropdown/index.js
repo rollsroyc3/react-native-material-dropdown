@@ -13,6 +13,7 @@ import {
   I18nManager,
 } from 'react-native';
 import { TextField } from 'react-native-material-textfield';
+
 import DropdownItem from '../item';
 import styles from './styles';
 

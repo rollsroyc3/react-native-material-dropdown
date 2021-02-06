@@ -1,10 +1,48 @@
 {
-  "name": "react-native-material-dropdown",
-  "version": "0.11.1",
-  "license": "BSD-3-Clause",
-  "author": "Alexander Nazarov <n4kz@n4kz.com>",
-
+  "_from": "git+https://github.com/rollsroyc3/react-native-material-dropdown.git#c40d4ce06137c24cdfac263b3523c0ae672b350f",
+  "_id": "react-native-material-dropdown@0.11.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-material-dropdown",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-material-dropdown@git+https://github.com/rollsroyc3/react-native-material-dropdown.git#c40d4ce06137c24cdfac263b3523c0ae672b350f",
+    "name": "react-native-material-dropdown",
+    "escapedName": "react-native-material-dropdown",
+    "rawSpec": "git+https://github.com/rollsroyc3/react-native-material-dropdown.git#c40d4ce06137c24cdfac263b3523c0ae672b350f",
+    "saveSpec": "git+https://github.com/rollsroyc3/react-native-material-dropdown.git#c40d4ce06137c24cdfac263b3523c0ae672b350f",
+    "fetchSpec": "https://github.com/rollsroyc3/react-native-material-dropdown.git",
+    "gitCommittish": "c40d4ce06137c24cdfac263b3523c0ae672b350f"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/rollsroyc3/react-native-material-dropdown.git#c40d4ce06137c24cdfac263b3523c0ae672b350f",
+  "_spec": "react-native-material-dropdown@git+https://github.com/rollsroyc3/react-native-material-dropdown.git#c40d4ce06137c24cdfac263b3523c0ae672b350f",
+  "_where": "/Users/andrewroyce/Documents/projects/walkaboutreact",
+  "author": {
+    "name": "Alexander Nazarov",
+    "email": "n4kz@n4kz.com"
+  },
+  "bugs": {
+    "url": "https://github.com/n4kz/react-native-material-dropdown/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.5.9",
+    "react-native-material-buttons": "github:rollsroyc3/react-native-material-buttons",
+    "react-native-material-textfield": "github:rollsroyc3/react-native-material-textfield"
+  },
+  "deprecated": false,
   "description": "Material dropdown",
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.5.0",
+    "eslint-plugin-react": "^7.0.0"
+  },
+  "homepage": "https://github.com/n4kz/react-native-material-dropdown#readme",
   "keywords": [
     "react",
     "react-component",
@@ -16,31 +54,19 @@
     "spinner",
     "select"
   ],
-
+  "license": "BSD-3-Clause",
   "main": "index.js",
-
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/n4kz/react-native-material-dropdown.git"
-  },
-
+  "name": "react-native-material-dropdown",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
   },
-
-  "devDependencies": {
-    "babel-eslint": "^8.0.0",
-    "eslint": "^4.5.0",
-    "eslint-plugin-react": "^7.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/n4kz/react-native-material-dropdown.git"
   },
-
   "scripts": {
     "lint": "eslint src example/app.js"
   },
-
-  "dependencies": {
-    "prop-types": "^15.5.9",
-    "react-native-material-textfield": "rollsroyc3/react-native-material-textfield"
-  }
+  "version": "0.11.1"
 }
