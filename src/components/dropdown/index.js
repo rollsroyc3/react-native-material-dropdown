@@ -13,6 +13,7 @@ import {
   I18nManager,
 } from 'react-native';
 import { TextField } from 'rn-material-ui-textfield';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 import DropdownItem from '../item';
 import styles from './styles';
@@ -122,9 +123,9 @@ export default class Dropdown extends PureComponent {
     renderBase: PropTypes.func,
     renderAccessory: PropTypes.func,
 
-    containerStyle: (ViewPropTypes || View.propTypes).style,
-    overlayStyle: (ViewPropTypes || View.propTypes).style,
-    pickerStyle: (ViewPropTypes || View.propTypes).style,
+    containerStyle: ViewPropTypes.style,
+    overlayStyle: ViewPropTypes.style,
+    pickerStyle: ViewPropTypes.style,
 
     supportedOrientations: PropTypes.arrayOf(PropTypes.string),
 
