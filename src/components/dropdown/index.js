@@ -9,7 +9,6 @@ import {
   TouchableWithoutFeedback,
   Dimensions,
   Platform,
-  ViewPropTypes,
   I18nManager,
 } from 'react-native';
 import { TextField } from 'rn-material-ui-textfield';
