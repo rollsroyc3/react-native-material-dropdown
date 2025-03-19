@@ -33,7 +33,7 @@
   "dependencies": {
     "prop-types": "^15.5.9",
     "react-native-material-buttons": "github:rollsroyc3/react-native-material-buttons",
-    "react-native-material-textfield": "github:rollsroyc3/react-native-material-textfield"
+    "rn-material-ui-textfield": "^1.0.9"
   },
   "deprecated": false,
   "description": "Material dropdown",
